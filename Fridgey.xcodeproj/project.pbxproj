@@ -8,13 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		471871D71E19A66D00141545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471871D61E19A66D00141545 /* AppDelegate.swift */; };
-		471871D91E19A66D00141545 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471871D81E19A66D00141545 /* FirstViewController.swift */; };
-		471871DB1E19A66D00141545 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471871DA1E19A66D00141545 /* SecondViewController.swift */; };
 		471871DE1E19A66D00141545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471871DC1E19A66D00141545 /* Main.storyboard */; };
 		471871E01E19A66D00141545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471871DF1E19A66D00141545 /* Assets.xcassets */; };
 		471871E31E19A66D00141545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471871E11E19A66D00141545 /* LaunchScreen.storyboard */; };
 		471871EE1E19A66D00141545 /* FridgeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471871ED1E19A66D00141545 /* FridgeyTests.swift */; };
 		471871F91E19A66D00141545 /* FridgeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471871F81E19A66D00141545 /* FridgeyUITests.swift */; };
+		4736F7801E25AFC10092D42D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4736F77E1E25AFC10092D42D /* Realm.framework */; };
+		4736F7811E25AFC10092D42D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4736F77F1E25AFC10092D42D /* RealmSwift.framework */; };
+		4736F7821E25AFC90092D42D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4736F77E1E25AFC10092D42D /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4736F7831E25AFC90092D42D /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4736F77F1E25AFC10092D42D /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		474935021E21F67F00B35231 /* QuantityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474935011E21F67F00B35231 /* QuantityTests.swift */; };
+		474935041E21FA5300B35231 /* Quantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BD61E1A855C00B9E0E5 /* Quantity.swift */; };
+		474935061E21FAA400B35231 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB61E19C9FB00B9E0E5 /* RxCocoa.framework */; };
+		474935071E21FAA400B35231 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB71E19C9FB00B9E0E5 /* RxSwift.framework */; };
+		474935081E21FAA900B35231 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB61E19C9FB00B9E0E5 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		474935091E21FAA900B35231 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB71E19C9FB00B9E0E5 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4749350A1E21FCCD00B35231 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB41E19C9FB00B9E0E5 /* Nimble.framework */; };
+		4749350B1E21FCCD00B35231 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB51E19C9FB00B9E0E5 /* Quick.framework */; };
+		4749350C1E21FCD200B35231 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB51E19C9FB00B9E0E5 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4749350D1E21FCD500B35231 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB41E19C9FB00B9E0E5 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4749350F1E21FCE800B35231 /* QuantitySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4749350E1E21FCE800B35231 /* QuantitySpec.swift */; };
+		475E3B911E23CA1100E8F84B /* ShoppingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E3B901E23CA1100E8F84B /* ShoppingListViewModel.swift */; };
+		475E3B961E23CF6200E8F84B /* ShoppingListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E3B951E23CF6200E8F84B /* ShoppingListModel.swift */; };
+		47D55BBB1E19C9FB00B9E0E5 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB61E19C9FB00B9E0E5 /* RxCocoa.framework */; };
+		47D55BBC1E19C9FB00B9E0E5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB71E19C9FB00B9E0E5 /* RxSwift.framework */; };
+		47D55BC11E19CA0F00B9E0E5 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB61E19C9FB00B9E0E5 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47D55BC21E19CA0F00B9E0E5 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47D55BB71E19C9FB00B9E0E5 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47D55BC61E19CB0900B9E0E5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BC51E19CB0900B9E0E5 /* AppCoordinator.swift */; };
+		47D55BC91E19CBF800B9E0E5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BC81E19CBF800B9E0E5 /* MainTabBarController.swift */; };
+		47D55BCB1E19CD9800B9E0E5 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BCA1E19CD9800B9E0E5 /* ShoppingListViewController.swift */; };
+		47D55BCD1E19CDB100B9E0E5 /* FridgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BCC1E19CDB100B9E0E5 /* FridgesViewController.swift */; };
+		47D55BD01E1A3DE600B9E0E5 /* ShoppingListProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BCF1E1A3DE600B9E0E5 /* ShoppingListProductCell.swift */; };
+		47D55BD31E1A581E00B9E0E5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BD21E1A581E00B9E0E5 /* Product.swift */; };
+		47D55BD51E1A812400B9E0E5 /* ShoppingListProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BD41E1A812400B9E0E5 /* ShoppingListProduct.swift */; };
+		47D55BD71E1A855C00B9E0E5 /* Quantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D55BD61E1A855C00B9E0E5 /* Quantity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +61,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		474935051E21FA5900B35231 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4749350D1E21FCD500B35231 /* Nimble.framework in Embed Frameworks */,
+				4749350C1E21FCD200B35231 /* Quick.framework in Embed Frameworks */,
+				474935081E21FAA900B35231 /* RxCocoa.framework in Embed Frameworks */,
+				474935091E21FAA900B35231 /* RxSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D55BBE1E19C9FF00B9E0E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4736F7821E25AFC90092D42D /* Realm.framework in Embed Frameworks */,
+				4736F7831E25AFC90092D42D /* RealmSwift.framework in Embed Frameworks */,
+				47D55BC11E19CA0F00B9E0E5 /* RxCocoa.framework in Embed Frameworks */,
+				47D55BC21E19CA0F00B9E0E5 /* RxSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		471871D31E19A66D00141545 /* Fridgey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fridgey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		471871D61E19A66D00141545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		471871D81E19A66D00141545 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		471871DA1E19A66D00141545 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		471871DD1E19A66D00141545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		471871DF1E19A66D00141545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		471871E21E19A66D00141545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +105,25 @@
 		471871F41E19A66D00141545 /* FridgeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridgeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		471871F81E19A66D00141545 /* FridgeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeyUITests.swift; sourceTree = "<group>"; };
 		471871FA1E19A66D00141545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4736F77E1E25AFC10092D42D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		4736F77F1E25AFC10092D42D /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		474935011E21F67F00B35231 /* QuantityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantityTests.swift; sourceTree = "<group>"; };
+		4749350E1E21FCE800B35231 /* QuantitySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantitySpec.swift; sourceTree = "<group>"; };
+		475E3B901E23CA1100E8F84B /* ShoppingListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewModel.swift; sourceTree = "<group>"; };
+		475E3B951E23CF6200E8F84B /* ShoppingListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListModel.swift; sourceTree = "<group>"; };
+		47D55BB41E19C9FB00B9E0E5 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		47D55BB51E19C9FB00B9E0E5 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		47D55BB61E19C9FB00B9E0E5 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		47D55BB71E19C9FB00B9E0E5 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		47D55BB81E19C9FB00B9E0E5 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		47D55BC51E19CB0900B9E0E5 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		47D55BC81E19CBF800B9E0E5 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		47D55BCA1E19CD9800B9E0E5 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		47D55BCC1E19CDB100B9E0E5 /* FridgesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridgesViewController.swift; sourceTree = "<group>"; };
+		47D55BCF1E1A3DE600B9E0E5 /* ShoppingListProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListProductCell.swift; sourceTree = "<group>"; };
+		47D55BD21E1A581E00B9E0E5 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		47D55BD41E1A812400B9E0E5 /* ShoppingListProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListProduct.swift; sourceTree = "<group>"; };
+		47D55BD61E1A855C00B9E0E5 /* Quantity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quantity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +131,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4736F7801E25AFC10092D42D /* Realm.framework in Frameworks */,
+				4736F7811E25AFC10092D42D /* RealmSwift.framework in Frameworks */,
+				47D55BBB1E19C9FB00B9E0E5 /* RxCocoa.framework in Frameworks */,
+				47D55BBC1E19C9FB00B9E0E5 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +142,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4749350A1E21FCCD00B35231 /* Nimble.framework in Frameworks */,
+				4749350B1E21FCCD00B35231 /* Quick.framework in Frameworks */,
+				474935061E21FAA400B35231 /* RxCocoa.framework in Frameworks */,
+				474935071E21FAA400B35231 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +166,7 @@
 				471871EC1E19A66D00141545 /* FridgeyTests */,
 				471871F71E19A66D00141545 /* FridgeyUITests */,
 				471871D41E19A66D00141545 /* Products */,
+				47D55BB31E19C9FA00B9E0E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +183,14 @@
 		471871D51E19A66D00141545 /* Fridgey */ = {
 			isa = PBXGroup;
 			children = (
-				471871D61E19A66D00141545 /* AppDelegate.swift */,
-				471871D81E19A66D00141545 /* FirstViewController.swift */,
-				471871DA1E19A66D00141545 /* SecondViewController.swift */,
-				471871DC1E19A66D00141545 /* Main.storyboard */,
+				47D55BD11E1A580700B9E0E5 /* Models */,
+				47D55BC71E19CBD300B9E0E5 /* Controllers */,
+				475E3B921E23CDA000E8F84B /* ShoppingList */,
+				47D55BC41E19CAE400B9E0E5 /* Coordinators */,
+				475E3B941E23CE2900E8F84B /* Storyboards */,
 				471871DF1E19A66D00141545 /* Assets.xcassets */,
-				471871E11E19A66D00141545 /* LaunchScreen.storyboard */,
 				471871E41E19A66D00141545 /* Info.plist */,
+				471871D61E19A66D00141545 /* AppDelegate.swift */,
 			);
 			path = Fridgey;
 			sourceTree = "<group>";
@@ -115,6 +200,8 @@
 			children = (
 				471871ED1E19A66D00141545 /* FridgeyTests.swift */,
 				471871EF1E19A66D00141545 /* Info.plist */,
+				474935011E21F67F00B35231 /* QuantityTests.swift */,
+				4749350E1E21FCE800B35231 /* QuantitySpec.swift */,
 			);
 			path = FridgeyTests;
 			sourceTree = "<group>";
@@ -128,6 +215,67 @@
 			path = FridgeyUITests;
 			sourceTree = "<group>";
 		};
+		475E3B921E23CDA000E8F84B /* ShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				47D55BD41E1A812400B9E0E5 /* ShoppingListProduct.swift */,
+				475E3B951E23CF6200E8F84B /* ShoppingListModel.swift */,
+				475E3B901E23CA1100E8F84B /* ShoppingListViewModel.swift */,
+				47D55BCA1E19CD9800B9E0E5 /* ShoppingListViewController.swift */,
+				47D55BCF1E1A3DE600B9E0E5 /* ShoppingListProductCell.swift */,
+			);
+			name = ShoppingList;
+			sourceTree = "<group>";
+		};
+		475E3B941E23CE2900E8F84B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				471871DC1E19A66D00141545 /* Main.storyboard */,
+				471871E11E19A66D00141545 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		47D55BB31E19C9FA00B9E0E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4736F77E1E25AFC10092D42D /* Realm.framework */,
+				4736F77F1E25AFC10092D42D /* RealmSwift.framework */,
+				47D55BB41E19C9FB00B9E0E5 /* Nimble.framework */,
+				47D55BB51E19C9FB00B9E0E5 /* Quick.framework */,
+				47D55BB61E19C9FB00B9E0E5 /* RxCocoa.framework */,
+				47D55BB71E19C9FB00B9E0E5 /* RxSwift.framework */,
+				47D55BB81E19C9FB00B9E0E5 /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47D55BC41E19CAE400B9E0E5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				47D55BC51E19CB0900B9E0E5 /* AppCoordinator.swift */,
+			);
+			name = Coordinators;
+			sourceTree = "<group>";
+		};
+		47D55BC71E19CBD300B9E0E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47D55BC81E19CBF800B9E0E5 /* MainTabBarController.swift */,
+				47D55BCC1E19CDB100B9E0E5 /* FridgesViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		47D55BD11E1A580700B9E0E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47D55BD61E1A855C00B9E0E5 /* Quantity.swift */,
+				47D55BD21E1A581E00B9E0E5 /* Product.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +286,7 @@
 				471871CF1E19A66D00141545 /* Sources */,
 				471871D01E19A66D00141545 /* Frameworks */,
 				471871D11E19A66D00141545 /* Resources */,
+				47D55BBE1E19C9FF00B9E0E5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +304,7 @@
 				471871E51E19A66D00141545 /* Sources */,
 				471871E61E19A66D00141545 /* Frameworks */,
 				471871E71E19A66D00141545 /* Resources */,
+				474935051E21FA5900B35231 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,9 +415,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471871DB1E19A66D00141545 /* SecondViewController.swift in Sources */,
+				47D55BCB1E19CD9800B9E0E5 /* ShoppingListViewController.swift in Sources */,
+				475E3B961E23CF6200E8F84B /* ShoppingListModel.swift in Sources */,
+				47D55BCD1E19CDB100B9E0E5 /* FridgesViewController.swift in Sources */,
+				47D55BC61E19CB0900B9E0E5 /* AppCoordinator.swift in Sources */,
+				47D55BD71E1A855C00B9E0E5 /* Quantity.swift in Sources */,
+				475E3B911E23CA1100E8F84B /* ShoppingListViewModel.swift in Sources */,
+				47D55BD01E1A3DE600B9E0E5 /* ShoppingListProductCell.swift in Sources */,
+				47D55BD51E1A812400B9E0E5 /* ShoppingListProduct.swift in Sources */,
 				471871D71E19A66D00141545 /* AppDelegate.swift in Sources */,
-				471871D91E19A66D00141545 /* FirstViewController.swift in Sources */,
+				47D55BC91E19CBF800B9E0E5 /* MainTabBarController.swift in Sources */,
+				47D55BD31E1A581E00B9E0E5 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +433,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474935041E21FA5300B35231 /* Quantity.swift in Sources */,
+				474935021E21F67F00B35231 /* QuantityTests.swift in Sources */,
 				471871EE1E19A66D00141545 /* FridgeyTests.swift in Sources */,
+				4749350F1E21FCE800B35231 /* QuantitySpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +580,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AM3YAYSGAM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Fridgey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suryu.Fridgey;
@@ -432,7 +598,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AM3YAYSGAM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Fridgey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suryu.Fridgey;
@@ -447,6 +618,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = AM3YAYSGAM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FridgeyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suryu.FridgeyTests;
@@ -462,6 +637,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = AM3YAYSGAM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FridgeyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suryu.FridgeyTests;
@@ -518,6 +697,7 @@
 				471871FF1E19A66D00141545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471872001E19A66D00141545 /* Build configuration list for PBXNativeTarget "FridgeyTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +706,7 @@
 				471872021E19A66D00141545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471872031E19A66D00141545 /* Build configuration list for PBXNativeTarget "FridgeyUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +715,7 @@
 				471872051E19A66D00141545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
